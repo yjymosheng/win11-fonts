@@ -16,3 +16,10 @@ mkdir -p ~/.local/share/fonts
 cp ./fonts/* ~/.local/share/fonts/
 fc-cache -fv
 ```
+
+或者
+
+```bash
+sudo cp ./fonts/* /usr/share/fonts/
+sudo fc-cache -fv
+```
